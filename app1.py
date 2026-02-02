@@ -4,7 +4,7 @@ import os
 import altair as alt
 import time
 DEPLOY_MODE = True  
-DATA_PATH = "data/live_log.csv"
+DATA_PATH = "sample_log.csv"
 
 st.set_page_config(
     page_title="Cognitive Load Estimation System",
