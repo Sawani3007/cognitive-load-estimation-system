@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import altair as alt
 import time
-
+DEPLOY_MODE = True  
 DATA_PATH = "data/live_log.csv"
 
 st.set_page_config(
